@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    android:label="HomeFragment"
+    app:startDestination="@id/home_fragment">
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.disha.bryjpractical.ui.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+    <fragment
+        android:id="@+id/shop_fragment"
+        android:name="com.disha.bryjpractical.ui.fragment.ShopFragment"
+        android:label="ShopFragment"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/account_fragment"
+        android:name="com.disha.bryjpractical.ui.fragment.AccountFragment"
+        android:label="AccountFragment"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/bag_fragment"
+        android:name="com.disha.bryjpractical.ui.fragment.BagFragment"
+        android:label="BagFragment"
+        tools:layout="@layout/fragment_bag" />
+</navigation>
